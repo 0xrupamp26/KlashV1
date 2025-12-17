@@ -1,0 +1,10 @@
+[package]
+name = "Klash"
+version = "1.0.0"
+upgrade_policy = "compatible"
+
+[addresses]
+Klash = "0x550ec35b20d8ad68121bddc306a49a35053b110ee2cc5a2f8bc4adc98da2a4e2"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
